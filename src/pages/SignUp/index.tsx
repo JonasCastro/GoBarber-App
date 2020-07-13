@@ -54,7 +54,7 @@ const SignUp: React.FC = () => {
 
         await api.post('/users', data);
         Alert.alert(
-          'Cadastro relizado com sucesso!',
+          'Cadastro realizado com sucesso!',
           'Você já pode fazer login na aplicação.',
         );
         navigation.goBack();
