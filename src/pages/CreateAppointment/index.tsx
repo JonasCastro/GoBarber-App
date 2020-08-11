@@ -1,11 +1,11 @@
 import React, { useCallback, useEffect, useState, useMemo } from 'react';
 import { useRoute, useNavigation } from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/Feather';
-import { useAuth } from 'src/hooks/auth';
 import { format } from 'date-fns';
 
 import DateTimePicker from '@react-native-community/datetimepicker';
 import { Platform, Alert } from 'react-native';
+import { useAuth } from '../../hooks/auth';
 import api from '../../services/api';
 import {
   Container,
